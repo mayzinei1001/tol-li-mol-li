@@ -1,0 +1,17 @@
+.container1 h1 {
+  color: #FF0032;
+}
+
+.btn {
+  color: #fff;
+  background-color: #3D1766;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  margin-left: 20px;
+}
+.btn:hover {
+  background-color: #6F1AB6;
+}
+
+/*# sourceMappingURL=cus.css--watch.map */

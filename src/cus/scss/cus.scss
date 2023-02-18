@@ -1,0 +1,33 @@
+$main: #3d1766;
+$hover: #ed71fe;
+$theme: #70e0f6;
+$text: #fff;
+
+.container {
+	width: 50%;
+	height: 300px;
+	margin: auto;
+	padding: 50px;
+	background-color: $main;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 20px;
+	h1 {
+		color: $text;
+		font-size: 250%;
+	}
+	p {
+		color: $hover;
+	}
+}
+.btn {
+	color: $main;
+	background-color: $theme;
+	padding: 8px 12px;
+	border-radius: 5px;
+	margin-top: 20px;
+	border: 0;
+	&:hover {
+		background-color: $hover;
+	}
+}
